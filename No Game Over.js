@@ -3,6 +3,10 @@
 
   var original=Runner.prototype.gameOver=function(){}
 
+  OR
+  
+  Runner.instance_.gameOver=()=>{}
+  
 /* 
 Steps to Run This Code :-
 1. In Chrome Browser type --> chrome://dino
