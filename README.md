@@ -5,6 +5,11 @@
 var original=Runner.prototype.gameOver=function(){}
 ```
 
+OR
+```javascript
+Runner.instance_.gameOver=()=>{}
+```
+
 ## Jump Velocity
 ```javascript
 Runner.instance_.tRex.setJumpVelocity(20)
